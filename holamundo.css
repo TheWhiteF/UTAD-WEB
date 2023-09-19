@@ -1,0 +1,22 @@
+#cabecera{
+	text-align: center;
+	margin: 100px 50px;
+}
+
+#titulo{
+	color: blue;
+}
+
+#parrafo{
+    color: darkgrey;
+    margin: 50px;
+    background-color: yellow
+}
+
+#lista{
+    border: 2px dotted silver;
+}
+
+.importante{
+    font-weight: bold;
+}
