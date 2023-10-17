@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+} /* Para eliminar la configuración css por defecto de los navegadores */
+
+html,
+body {
+  font-size: 18px;
+  background-color: #fff;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2.5em; /* relativo al max-width del contenedor */
+  font-family: Lato, sans-serif; /* Lato y si el navegador no lo detecta, sans-serif */
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40 px 0; /* superior, inferior y derecho, izquierdo */
+}
+
+.App {
+  min-height: 100vh; /* Se adapta a la altura del navegador */
+  display: flex; /* Flexibiliza la ubicación */
+  flex-wrap: wrap; /* Si no cabe el elemento, se sitúa debajo del anterior */
+  align-items: center;
+  justify-content: center; /* Se centran vertical y horizontalmente */
+  text-align: center
+}
+
+.main-container {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
