@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piedra, papel o tijera</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+        <h1 class="hide">Jugando</h1>
+
+        <form>
+            <label>Humanos</label>
+            <select id="humanos">
+                <option value=0>0</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+            </select>
+        </form>
+
+        <button type="button" id="jugar">Jugar</button>
+        <button type="button" class="hide" id="finalizar">Finalizar</button>
+
+        <table class="hide">
+            <tr class ="Numeracion">
+                <td class="cont" id="name1">Jugador 1</td>
+                <td class="cont" id="name2">Jugador 2</td>
+            </tr>
+            <tr class="jugadores">
+                <td id="j1" class="jugador"><img src="imagenes/roca.jpg" id="jugador1" width="200" height="200"/></td>
+                <td id="j2" class="jugador"><img src="imagenes/roca.jpg" id="jugador2" width="200" height="200"/></td>
+            </tr>
+            <tr class ="contadores">
+                <td class="cont" id="cont1">0</td>
+                <td class="cont" id="cont2">0</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,125 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para etiquetas de formularios */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilos para el botón Jugar */
+#jugar {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#jugar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para las imágenes de jugador */
+.jugador img {
+    width: 450px;
+    height: 450px;
+}
+
+/* Estilos para los botones de finalizar y reiniciar */
+#finalizar {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#reiniciar {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Estilos para los contadores */
+.cont {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para el botón Finalizar y Reiniciar */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para el botón Reiniciar */
+#reiniciar {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Estilos para la etiqueta Humanos */
+#humanos {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para la clase Numeracion */
+.Numeracion {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para la clase contadores */
+.contadores {
+    background-color: white;
+    color: black;
+}
