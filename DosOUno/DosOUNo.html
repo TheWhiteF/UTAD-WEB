@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dos o Uno</title>
+        <link rel="stylesheet" type="text/css" href="DosOUno.css"/> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="DosOUno.js"></script>
+    </head>
+    <body>
+
+        <form>
+            <label>Humanos</label>
+            <select id="humanos">
+                <option value=0>0</option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+            </select>
+        </form>
+        <form>
+            <label>Partidas</label>
+            <select id="partida">
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+
+            </select>
+        </form>
+
+        <button type="button" id="jugar">Jugar</button>
+        <button type="button" class="hide" id="finalizar">Finalizar</button>
+
+
+        <table class="hide">
+            <tr class ="Numeracion">
+                <td class="cont" id="name1">Jugador 1</td>
+                <td class="cont" id="name2">Jugador 2</td>
+                <td class="cont" id="name3">Jugador 3</td>
+            </tr>
+            <tr class="jugadores">
+                <td id="j1" class="jugador"><img src="imagenes/cero.png" id="jugador1" width="200" height="200"/></td>
+                <td id="j2" class="jugador"><img src="imagenes/cero.png" id="jugador2" width="200" height="200"/></td>
+                <td id="j2" class="jugador"><img src="imagenes/cero.png" id="jugador3" width="200" height="200"/></td>
+            </tr>
+            <tr class ="contadores">
+                <td class="cont" id="cont1">0</td>
+                <td class="cont" id="cont2">0</td>
+                <td class="cont" id="cont3">0</td>
+            </tr>
+        </table>
+
+
+
+
+    </body>
+</html>
