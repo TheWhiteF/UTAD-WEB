@@ -1,0 +1,29 @@
+[
+  {
+    "email": "samu18600@gmail.com",
+    "password": "p",
+    "name": "Samuel Gutiérrez Mena",
+    "year": "18",
+    "city": "Madrid",
+    "interest": "",
+    "box": "0"
+  },
+  {
+    "email": "samu18600@gmail.com",
+    "password": "p",
+    "name": "Samuel Gutiérrez Mena",
+    "year": "18",
+    "city": "Madrid",
+    "interest": "",
+    "box": "0"
+  },
+  {
+    "email": "samu18600@gmail.com",
+    "password": "p",
+    "name": "Samuel Gutiérrez Mena",
+    "year": "18",
+    "city": "Madrid",
+    "interest": "",
+    "box": "0"
+  }
+]
