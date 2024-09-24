@@ -1,17 +1,28 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title> ejemplopromp</title>
-        <script type="text/javascript" src="../ejemplopromp.js" async ></script>
-    </head>
-	<body onload="inicio()">
 
-        <h1>Operación</h1><br>
-        <p>1.Multiplica</p><br>
-        <p>2.Mayor</p><br>
-        <p>3.Encabezado</p><br>
-        <input type="text" id="altura"><br>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de un Triángulo</title>
+</head>
+    <body>
+
+        <h1>Calculadora de Área de un Triángulo</h1>
+        
+        <label for="base">Base (cm):</label>
+        <input type="number" id="base" placeholder="Ingresa la base"><br><br>
+        
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" placeholder="Ingresa la altura"><br><br>
+        
+        <button onclick="calcularArea()">Calcular Área</button>
+        <button onclick="borrar()">Borrar</button><br><br>
+        
+        <label for="resultado">Área (cm²):</label>
+        <input type="text" id="resultado" placeholder="El área aparecerá aquí" readonly>
+
+        <script src="ejemplopromp.js"></script>
 
     </body>
 </html>
