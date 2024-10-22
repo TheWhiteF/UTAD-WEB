@@ -7,7 +7,6 @@ function App() {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
-    // Cargar notas desde el almacenamiento local al iniciar la aplicación
     const savedNotes = JSON.parse(localStorage.getItem('notes')) || [];
     setNotes(savedNotes);
   }, []);
@@ -22,7 +21,6 @@ function App() {
   };
 
   useEffect(() => {
-    // Guardar notas en el almacenamiento local cada vez que la lista se modifica
     localStorage.setItem('notes', JSON.stringify(notes));
   }, [notes]);
 
@@ -36,4 +34,5 @@ function App() {
 }
 
 export default App;
+
 

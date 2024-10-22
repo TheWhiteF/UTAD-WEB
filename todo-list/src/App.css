@@ -90,3 +90,15 @@ input[type="text"] {
   }
 }
 
+.note.alta {
+  border: 2px solid red;
+}
+
+.note.media {
+  border: 2px solid yellow;
+}
+
+.note.baja {
+  border: 2px solid green;
+}
+

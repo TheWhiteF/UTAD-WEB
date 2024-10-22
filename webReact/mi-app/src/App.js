@@ -31,6 +31,8 @@ function App() {
             name = {element.name}
             position = {element.position}
             description = {element.description}
+            numero = {element.numero}
+            correo = {element.correo}
             image = {element.image} />
           ))}
         </div>

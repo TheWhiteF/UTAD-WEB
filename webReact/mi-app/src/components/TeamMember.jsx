@@ -12,6 +12,8 @@ function TeamMember(props) {
         <p className='name-member'>{props.name}</p>
         <p className='position-member'>{props.position}</p>
         <p className='description-member'>{props.description}</p>
+        <p className='numero-member'>{props.numero}</p>
+        <p className='correo member'>{props.correo}</p>
       </div>
     </div>
   );
